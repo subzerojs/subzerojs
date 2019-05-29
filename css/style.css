@@ -1,0 +1,77 @@
+html, main, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+.wrapper{
+
+}
+.logo{
+	display: flex;
+	color: #4996BF;
+	text-decoration: none;
+}
+h1{
+	color: #4996BF;
+}
+
+
+.logo-image{
+	width: 30px;
+	height: 30px;
+}
+.logo-image:hover{
+		transform: rotate(15deg);
+		transition: 0.5s;
+		cursor: pointer;
+}
+aside{
+	position: fixed;
+	/*background-color: #C9DAE4;*/
+
+	width: 20%;
+	height: 800px;
+	border-right: 2px solid #4996BF;
+	padding-right: 10px;
+}
+nav{
+	text-align: right;
+	margin-top:40%;
+}
+nav a{
+	color: #4996BF;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: underline;
+
+
+}
+header{
+
+}
+
+
+.lenta {
+	position: relative;
+	left: 20%;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article{
+	width: 90%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-right: 3%;
+	border: 2px dashed #4996BF;
+}
+
+footer{
+	position: relative;
+	top: 50%;
+}
