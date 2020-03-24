@@ -14,6 +14,9 @@ li {
 	color: #4996BF;
 	text-decoration: none;
 }
+.logo-text{
+	color: white;
+}
 h1{
 	color: #4996BF;
 }
@@ -36,19 +39,21 @@ aside{
 	height: 800px;
 	border-right: 2px solid #4996BF;
 	padding-right: 10px;
+	background: #66B9DB;
+	font-size:16pt;
 }
 nav{
 	text-align: right;
 	margin-top:40%;
 }
 nav a{
-	color: #4996BF;
+	color: white;
 	text-decoration: none;
 }
 nav a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 
-
+	color: #C5EAF3;
 }
 header{
 
